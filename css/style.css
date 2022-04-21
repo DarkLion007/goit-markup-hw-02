@@ -1,0 +1,291 @@
+:root {
+    --accent-color: #2196F3;
+    --logo-color: #2196F3;
+    --basic-color: #212121;
+    --secondary-color: #757575;
+    --main-font: 'Roboto';
+    --secondary-font: 'Raleway';
+}
+
+.hidden-item {
+    /* visibility: hidden; */
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+/* ~~~~~~~~~~~~~~~index.html~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~header~~~~~~~~~~~~~~~ */
+.page-header {}
+
+.navigation {}
+
+.header-logo {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--basic-color);
+}
+
+.logo-color {
+    color: var(--logo-color);
+}
+
+.menu {}
+
+.menu-item {}
+
+.menu-link {
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--basic-color);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--accent-color);
+}
+
+.header-mail {
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--secondary-color);
+}
+
+.header-mail:hover,
+.header-mail:focus {
+    color: var(--accent-color);
+}
+
+.header-tel {
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1.14;
+    color: var(--secondary-color);
+}
+
+.header-tel:hover,
+.header-tel:focus {
+    color: var(--accent-color);
+}
+
+/* ~~~~~~~~~~~~~~~/header~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~main~~~~~~~~~~~~~~~ */
+.hero {}
+
+.hero-title {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    /* color: #ffffff; */
+}
+
+.hero-button {
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #188CE8;
+}
+
+.feature {}
+
+.feature-list {}
+
+.feature-item {}
+
+.feature-title {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.feature-description {
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71px;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
+}
+
+.occupation {}
+
+.occupation-title {
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--basic-color);
+}
+
+.occupation-list {}
+
+.occupation-item {}
+
+.occupation-image {}
+
+.team {}
+
+.team-title {
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--basic-color);
+}
+
+.business-cards {}
+
+.business-image {}
+
+.business-title {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--basic-color);
+}
+
+.business-description {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
+}
+
+/* ~~~~~~~~~~~~~~~/main~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~footer~~~~~~~~~~~~~~~ */
+.footer-logo {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+footer {
+    background: #2F303A;
+}
+
+.footer-adress {}
+
+.footer-contacts {}
+
+.contacts-item {}
+
+.map-link {
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.mail-link {
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.tel-link {
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* ~~~~~~~~~~~~~~~/footer~~~~~~~~~~~~~~~ */
+/*~~~~~~~~~~~~~~~/index.html~~~~~~~~~~~~~~~*/
+
+
+/*~~~~~~~~~~~~~~~portfolio.html~~~~~~~~~~~~~~~*/
+/* ~~~~~~~~~~~~~~~main~~~~~~~~~~~~~~~ */
+
+.switch-list {}
+
+.switch-item {}
+
+.switch-btn {
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+    color: var(--basic-color);
+}
+
+.cards {}
+
+.card-item {}
+
+.card-image {}
+
+.card-title {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--basic-color);
+}
+
+.card-description {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
+}
+
+/* ~~~~~~~~~~~~~~~/main~~~~~~~~~~~~~~~ */
+/*~~~~~~~~~~~~~~~/portfolio.html~~~~~~~~~~~~~~~*/
