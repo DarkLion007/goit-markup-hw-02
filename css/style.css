@@ -31,7 +31,6 @@
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--basic-color);
 }
 
 .logo-color {
@@ -43,12 +42,10 @@
 .menu-item {}
 
 .menu-link {
-    font-family: var(--main-font);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--basic-color);
 }
 
 .menu-link:hover,
@@ -57,7 +54,6 @@
 }
 
 .header-mail {
-    font-family: var(--main-font);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -71,7 +67,6 @@
 }
 
 .header-tel {
-    font-family: var(--main-font);
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -86,10 +81,14 @@
 
 /* ~~~~~~~~~~~~~~~/header~~~~~~~~~~~~~~~ */
 /* ~~~~~~~~~~~~~~~main~~~~~~~~~~~~~~~ */
+body {
+    font-family: var(--main-font);
+    color: var(--basic-color);
+}
+
 .hero {}
 
 .hero-title {
-    font-family: var(--main-font);
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -100,7 +99,6 @@
 }
 
 .hero-button {
-    font-family: var(--main-font);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -124,7 +122,6 @@
 .feature-item {}
 
 .feature-title {
-    font-family: var(--main-font);
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -134,8 +131,6 @@
 }
 
 .feature-description {
-    font-family: var(--main-font);
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71px;
     letter-spacing: 0.03em;
@@ -145,12 +140,10 @@
 .occupation {}
 
 .occupation-title {
-    font-family: var(--main-font);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: var(--basic-color);
 }
 
 .occupation-list {}
@@ -162,12 +155,10 @@
 .team {}
 
 .team-title {
-    font-family: var(--main-font);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: var(--basic-color);
 }
 
 .business-cards {}
@@ -175,17 +166,14 @@
 .business-image {}
 
 .business-title {
-    font-family: var(--main-font);
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--basic-color);
 }
 
 .business-description {
-    font-family: var(--main-font);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -216,7 +204,6 @@ footer {
 .contacts-item {}
 
 .map-link {
-    font-family: var(--main-font);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -225,7 +212,6 @@ footer {
 }
 
 .mail-link {
-    font-family: var(--main-font);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -234,7 +220,6 @@ footer {
 }
 
 .tel-link {
-    font-family: var(--main-font);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -254,12 +239,10 @@ footer {
 .switch-item {}
 
 .switch-btn {
-    font-family: var(--main-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
     letter-spacing: 0.03em;
-    color: var(--basic-color);
     background: #F5F4FA;
     border-radius: 4px;
 }
@@ -279,17 +262,14 @@ footer {
 .card-image {}
 
 .card-title {
-    font-family: var(--main-font);
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: var(--basic-color);
 }
 
 .card-description {
-    font-family: var(--main-font);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
