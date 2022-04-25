@@ -31,6 +31,7 @@
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    color: var(--basic-color);
 }
 
 .logo-color {
@@ -48,6 +49,10 @@
     letter-spacing: 0.02em;
 }
 
+.curent{
+    color: var(--accent-color);
+}
+
 .menu-link:hover,
 .menu-link:focus {
     color: var(--accent-color);
@@ -60,6 +65,8 @@
     letter-spacing: 0.02em;
     color: var(--secondary-color);
 }
+
+
 
 .header-mail:hover,
 .header-mail:focus {
@@ -239,6 +246,7 @@ footer {
 .switch-item {}
 
 .switch-btn {
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
@@ -253,6 +261,7 @@ footer {
     background: #2196F3;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
+    color: #FFFFFF;
 }
 
 .cards {}
